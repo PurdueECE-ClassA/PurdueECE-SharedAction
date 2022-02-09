@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: PurdueECE/PurdueECE-SharedAction@v1.0
+      uses: PurdueECE-ClassA/PurdueECE-SharedAction@v1.0
       with:
         identity: 'ECE'
     # Use the output from the `hello` step
