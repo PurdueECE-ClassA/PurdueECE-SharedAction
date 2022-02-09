@@ -1,0 +1,13 @@
+name: 'Hello World NPM Action'
+description: 'hello world NPM action'
+inputs:
+    identity:
+        description: 'who'
+        required: true
+        default: 'world'
+outputs:
+    time:   #id of output
+        description: 'time of run'
+runs:
+    using: 'node12'
+    main: 'index.js'
